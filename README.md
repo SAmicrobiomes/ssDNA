@@ -9,7 +9,7 @@
 3. Compared representative sequences using all-vs-all blastp with evalue ```1e-5```;
 4. The blastp results were further clustered using [MCL - Markov Clustering Algorithm](https://micans.org/mcl/) with the inflation ```1.5```;
 5. Clusters with proteins >= 10 representing replication initiator (Rep) and major capsid (VP1) were aligned using [mafft](https://mafft.cbrc.jp/alignment/software/) with the ```--auto``` parameter;
-6. Lastly alignments were further used to create HMM profiles using [hmmer](http://hmmer.org/) 
+6. Alignments were then used to create HMM profiles using [hmmer](http://hmmer.org/) 
 
 
 
