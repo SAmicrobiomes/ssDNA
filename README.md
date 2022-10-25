@@ -5,11 +5,11 @@
 
 ### The following are steps we followed to build HMM profiles used in the search for putative ssDNA viruses in our metagenomes
 1. Retrieved Cressdnaviricota and Phixvirota protein sequences from [GenBank](https://www.ncbi.nlm.nih.gov/protein/?term=single+stranded+DNA+viruses);
-2. Cluster these at ```95%``` amino acid identity over ```90%```of the shortest sequence using [CD-HIT](https://www.bioinformatics.org/cd-hit/);
-3. Compare representative sequences using all-vs-all blastp with evalue ```1e-5```;
+2. Clustered these at ```95%``` amino acid identity over ```90%```of the shortest sequence using [CD-HIT](https://www.bioinformatics.org/cd-hit/);
+3. Compared representative sequences using all-vs-all blastp with evalue ```1e-5```;
 4. The blastp results were further clustered using [MCL - Markov Clustering Algorithm](https://micans.org/mcl/) with the inflation ```1.5```;
-5. Clusters with proteins >= 10 annotated as replication initiator (Rep) and major capsid (VP1) were aligned using [mafft](https://mafft.cbrc.jp/alignment/software/) with the ```--auto``` parameter;
-6. 
+5. Clusters with proteins >= 10 representing replication initiator (Rep) and major capsid (VP1) were aligned using [mafft](https://mafft.cbrc.jp/alignment/software/) with the ```--auto``` parameter;
+6. Lastly alignments were further used to create HMM profiles using [hmmer](http://hmmer.org/) 
 
 
 
