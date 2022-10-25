@@ -10,7 +10,4 @@
 4. The blastp results were further clustered using [MCL - Markov Clustering Algorithm](https://micans.org/mcl/) with the inflation ```1.5```;
 5. Clusters with proteins >= 10 representing replication initiator (Rep) and major capsid (VP1) were aligned using [mafft](https://mafft.cbrc.jp/alignment/software/) with the ```--auto``` parameter;
 6. Alignments were then used to create HMM profiles using [hmmer](http://hmmer.org/) 
-
-
-
-
+7. HMM profiles for both Circular Rep-Containing Single Stranded (CRESS.hmms) and Phixviricota major capsid VP1 (Phix.hmms) are in the ssDNA HMMs directory
