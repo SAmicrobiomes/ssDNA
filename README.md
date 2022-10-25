@@ -1,6 +1,6 @@
 ## The detection of Marine associated ssDNA viruses using HMM profiles
 
-![image](https://github.com/SAmicrobiomes/ssDNA/files/9857933/CRESS.Kazlauskas.Matthew.Figure.3.pdf)
+![image](CRESS)
 
 ### The following are steps we followed to build HMM profiles used in the search for putatuve ssDNA viruses in our metagenomes
 1. Download Cressdnaviricota and Phixvirota protein sequences from GenBank;
