@@ -8,7 +8,7 @@
 2. Cluster these at ```95%``` amino acid identity over ```90%```of the shortest sequence using [CD-HIT](https://www.bioinformatics.org/cd-hit/);
 3. Compare representative sequences using all-vs-all blastp with evalue ```1e-5```;
 4. The blastp results were further clustered using [MCL - Markov Clustering Algorithm](https://micans.org/mcl/) with the inflation ```1.5```;
-5. Clusters with proteins >= 10 annotated as replication initiator (Rep) and major capsid (VP1) were aligned using mafft with the ```--auto``` parameter;
+5. Clusters with proteins >= 10 annotated as replication initiator (Rep) and major capsid (VP1) were aligned using [mafft](https://mafft.cbrc.jp/alignment/software/) with the ```--auto``` parameter;
 6. 
 
 
